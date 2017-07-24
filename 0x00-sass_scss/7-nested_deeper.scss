@@ -4,3 +4,16 @@
 // Font size 16px to all h1 tags inside body tags
 // Font size 12px to h1 tags of class .smaller inside body tags
 // You must use nested declarations
+$big-size: 16px;
+$medium-size: 14px;
+$small-size: 12px;
+
+body {
+  font-size: $medium-size;
+  h1{
+    font-size: $big-size;
+    .smaller {
+      font-size: $small-size
+    }
+  }
+}
