@@ -1,8 +1,8 @@
-/* Write a Sass file that assigns:
+/* Write a Sass file that assigns: */
 
-The text color #3D3D3D to the HTML tags body and p
-The background color #6D6D6D to the HTML tags body and h2
-You must use 2 Sass variables */
+// The text color #3D3D3D to the HTML tags body and p
+// The background color #6D6D6D to the HTML tags body and h2
+// You must use 2 Sass variables
 
 $text-color: #3D3D3D;
 $bg-color: #6D6D6D;
@@ -18,4 +18,3 @@ p {
 h2 {
     background-color: $bg-color;
 }
-
