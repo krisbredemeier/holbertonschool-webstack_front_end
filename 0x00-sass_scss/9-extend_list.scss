@@ -5,3 +5,17 @@
 //   and extend style of the class .info
 // Text color #FF0000 to all tags of class .warning
 //   and extend style of the class .info
+
+$size-intro: 12px;
+$success-color: #00FF00;
+$warning-color: #FF0000;
+
+.info, .sucess, .warning {
+  font-size: $size-intro;
+}
+.success {
+  color: $success-color;
+}
+.warning {
+  color: $warning-color;
+}
