@@ -25,6 +25,22 @@ article h1 {
     font-size: 1em;
 }
 
-a, a:hover, a:focus, a:active, a:visited {
+a {
     color: #3344dd;
+}
+
+a:hover {
+  color: #7fffd4;
+}
+
+a:focus {
+  color: #f1f227;
+}
+
+a:active {
+  color: #aea8d3;
+}
+
+a:visited {
+  color: #00ff00;
 }

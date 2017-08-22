@@ -23,8 +23,8 @@ body {
     margin-right: 40px;
 }
 
-.article h2,
-.article h3 {
+.article h1,
+.article h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }

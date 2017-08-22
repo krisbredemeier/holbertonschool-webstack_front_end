@@ -27,17 +27,17 @@ table tr:nth-child(1) {
     color: #FFFFFF;
 }
 
-table tr td:nth-child(1) {
+table tr thead:nth-child(1) {
     font-size: 2em;
     width: 40%;
 }
 
-table td:nth-child(2) {
+table tbody:nth-child(1) {
     text-align: center;
     width: 20%;
 }
 
-table td:nth-child(3) {
+table tbody:nth-child(2) {
     font-size: 1em;
     width: 20%;
 }
