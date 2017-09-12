@@ -1,2 +1,15 @@
+/* default */
+img {
+    width: 124px;
+    height: 186px;
+}
 
-/* comment */
+body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
