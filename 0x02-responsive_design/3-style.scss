@@ -1,2 +1,33 @@
+/* all elements */
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
-/* comment */
+/* x-small */
+@media only screen and (max-width: 300px){
+  img {
+    width: 100%;
+  }
+}
+
+/* small */
+@media only screen and (max-width: 600px) and (min-width: 301px){
+  img {
+    width: 49%;
+  }
+}
+
+/* med */
+@media only screen and (max-width: 900px) {
+  img {
+    width: 32%;
+  }
+}
+
+/* default */
+@media only screen and (min-width: 901px) {
+  img {
+    width: 24%;
+  }
+}
