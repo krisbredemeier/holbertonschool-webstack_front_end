@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,12 +12,47 @@
                 -ms-text-size-adjust: none;
             }
 
-            article {
+            /*article {
                 width: 100%;
                 color: #FFFFFF;
                 background-color: #000000;
                 padding: 10px;
                 border-radius: 4px;
+            }*/
+
+            /* Mobile Styles */
+            @media only screen and (max-width: 400px) {
+              article {
+                width: 100%;
+                color: #FFFFFF;
+                background-color: #000000;
+                padding: 10px;
+                border-radius: 4px;
+                display: flex;
+                flex-wrap: wrap;
+              }
+            }
+
+            /* Tablet Styles */
+            @media only screen and (min-width: 401px) and (max-width: 960px) {
+              article {
+                width: 100%;
+                color: #FFFFFF;
+                background-color: #000000;
+                padding: 10px;
+                border-radius: 4px;
+              }
+            }
+
+            /* Desktop Styles */
+            @media only screen and (min-width: 961px) {
+              article {
+                width: 100%;
+                color: #FFFFFF;
+                background-color: #000000;
+                padding: 10px;
+                border-radius: 4px;
+              }
             }
 
         </style>
