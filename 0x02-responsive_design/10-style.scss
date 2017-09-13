@@ -1,2 +1,49 @@
+/* defines container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ /* defines all item */
+.item {
+  display: flex;
+  flex: 0 1 50%;
+  flex-direction: column;
+}
+/* defines span */
+span {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
 
-/* comment */
+/* top left */
+.box1 {
+  align-self: flex-start;
+  width: 100%;
+}
+/* top right */
+.box2 {
+  align-self: flex-end;
+  width: 33%;
+}
+
+/* bottom right */
+.box3 {
+  align-self: flex-end;
+  width: 77%;
+}
+
+/* top left */
+.box1 div {
+  background-color: #FF0000;
+}
+/* top right */
+.box2 div {
+  background-color: #00FF00;
+}
+
+/* bottom right */
+.box3 div{
+  background-color: #0000FF;
+}
