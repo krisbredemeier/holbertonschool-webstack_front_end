@@ -1,7 +1,9 @@
+/* default text color */
 h1 {
   color: #FF0000;
 }
 
+/* changes text color when printed*/
 @media print {
  h1 {
       color: #000000 !important;
