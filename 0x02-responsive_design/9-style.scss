@@ -1,2 +1,35 @@
 
-/* comment */
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex: 0 1 50%;
+  flex-direction: column;
+}
+
+span {
+  display: block;
+}
+
+/* top left */
+.item:nth-child(1) {
+  align-self: flex-start;
+}
+/* top right */
+.item:nth-child(2) {
+  align-self: flex-start;
+}
+
+/* bottom left */
+.item:nth-child(3) {
+  align-self: flex-end;
+}
+
+/* bottom right */
+.item:last-child {
+  align-self: flex-end;
+}
