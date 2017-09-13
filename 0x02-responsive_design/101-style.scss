@@ -1,2 +1,51 @@
+/* defines container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
 
-/* comment */
+/* defines span */
+div {
+  color: white;
+  align-items: center;
+}
+
+/* top left */
+.box1 {
+  -webkit-flex: 1;
+  background-color: #FF0000;
+  height: 20px;
+  width: 20px;
+}
+/* top right */
+.box2 {
+  -webkit-flex: 1;
+  background-color: #00FF00;
+  height: 50px;
+  width: 50px;
+}
+
+/* bottom right */
+.box3 {
+  -webkit-flex: 1;
+  background-color: #0000FF;
+  height: 100px;
+  width: 100px;
+}
+
+/* bottom right */
+.box4 {
+  -webkit-flex: 1;
+  background-color: #00FF00;
+  height: 50px;
+  width: 50px;
+}
+
+/* bottom right */
+.box5 {
+  -webkit-flex: 1;
+  background-color: #FF0000;
+  height: 20px;
+  width: 20px;
+}
