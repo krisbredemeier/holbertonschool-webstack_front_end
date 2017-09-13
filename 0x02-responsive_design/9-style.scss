@@ -1,16 +1,16 @@
-
+/* defines container */
 .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+ /* defines all item */
 .item {
   display: flex;
   flex: 0 1 50%;
   flex-direction: column;
 }
-
+/* defines span */
 span {
   display: block;
   width: 100px;
