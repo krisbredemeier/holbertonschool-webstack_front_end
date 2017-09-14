@@ -1,34 +1,32 @@
 /* defines container */
 .container {
   display: flex;
-  flex-wrap: wrap;
-  width: 300px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-/* defines span */
-div {
-  color: white;
+.box {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-
 /* top left */
 .box1 {
-  -webkit-flex: 1;
   background-color: #FF0000;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
 }
 /* top right */
 .box2 {
-  -webkit-flex: 1;
   background-color: #00FF00;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 }
 
 /* bottom right */
 .box3 {
-  -webkit-flex: 1;
   background-color: #0000FF;
   height: 100px;
   width: 100px;
@@ -36,16 +34,14 @@ div {
 
 /* bottom right */
 .box4 {
-  -webkit-flex: 1;
   background-color: #00FF00;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 }
 
 /* bottom right */
 .box5 {
-  -webkit-flex: 1;
   background-color: #FF0000;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
 }
